@@ -1,0 +1,88 @@
+/*header-start*/
+.header{
+    width: 100%;
+    height: 69px;
+    background: black;
+    color: #ffffff;
+}
+.header .header-contain{
+    width: 1200px;
+    height: 69px;
+    line-height: 69px;
+    background: black;
+    margin: auto;
+    /*background: skyblue;*/
+}
+.header .header-contain .loge{
+    width: 160px;
+    height: 69px;
+    float: left;
+    margin: 0px;
+}
+.header .header-contain .logo-title {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: no-repeat;
+
+}
+.header .header-contain .menu{
+    float: left;
+    margin-left: 100px;
+}
+.header .header-contain .menu li{
+    height: 69px;
+    padding:0 30px;
+    float: left;
+
+}
+.header .header-contain .menu li.active{
+    border-bottom: 5px solid red;
+    box-sizing: border-box;
+}
+.header .header-contain .menu li:hover{
+    border-bottom: 5px solid red;
+    box-sizing: border-box;
+}
+.header .header-contain .login-box{
+    float: right;
+}
+.header .header-contain .login-box i{
+    font-size: 20px;
+}
+/*header-end*/
+/*meddle-start*/
+
+/*foot-start*/
+.footer{
+    width: 100%;
+    background: lightslategray;
+}
+.footer .foot-box{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    background: lightslategray;
+}
+.footer .foot-box .foot-content{
+    /*width: 100%;*/
+    background: lightslategray;
+    line-height: 35px;
+    padding: 20px 0px;
+}
+/*footer-end*/
+/*bottom-start*/
+.bottom{
+    width: 100%;;
+    background: black;
+}
+.bottom p{
+    width: 1200px;
+    background: black;
+    color: white;
+    line-height: 35px;
+    padding: 20px 0px;
+    margin: auto;
+    text-align: center;
+}

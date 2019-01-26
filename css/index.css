@@ -1,0 +1,133 @@
+.middle{
+    width: 100%;
+    background: skyblue;
+    padding: 30px 0;
+}
+.middle .middle-box{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    background: aqua;
+}
+.middle .middle-contain{
+    float: left;
+    width: 800px;
+    /*height: 1000px;*/
+    background: lightslategray;
+}
+.middle .middle-contain .middle-banner{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    /*background: fuchsia;*/
+}
+.middle .middle-contain .middle-banner .picture li{
+    /*width: 800px;*/
+    /*height: 300px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.middle .middle-contain .middle-banner .picture li img{
+    width: 800px;
+    height: 300px;
+}
+.middle .middle-contain .middle-banner .picture li.show{
+    display: block;
+}
+.middle .middle-contain .middle-banner .tab{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -64px;
+}
+.middle .middle-contain .middle-banner .tab li{
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+.middle .middle-contain .middle-banner .tab li.on{
+    background: white;
+}
+.middle .middle-contain .middle-banner .btn li{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    display: none;
+}
+.middle .middle-contain .middle-banner:hover .btn li{
+    display:block;
+}
+.middle .middle-contain .middle-banner .btn li.left{
+    left: 20px;
+}
+.middle .middle-contain .middle-banner .btn li.right{
+    right:20px;
+}
+
+/*main-content-start*/
+.middle .middle-box .middle-contain .middle-content {
+    width: 800px;
+    background: slateblue;
+    font-size: 17px;
+}
+.middle .middle-box .middle-contain .middle-content
+.content li a img{
+    width: 250px;
+    height: 180px;
+    transition: all 1s;
+}
+.middle .middle-box .middle-contain .middle-content
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.middle .middle-box .middle-contain .middle-content
+.content li p{
+    line-height: 30px;
+    text-align: center;
+
+}
+.middle .middle-box .middle-contain .middle-content
+.content li>a{
+    display: block;
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+}
+.middle .middle-box .middle-contain .middle-content
+.content li a img:hover{
+    transform: scale(1.1);
+}
+.middle .middle-box .middle-contain .middle-note{
+    width: 800px;
+    height: 300px;
+    /*background: fuchsia;*/
+}
+.middle .middle-box .middle-contain .middle-note .note-tab{
+    width: 800px;
+    height: 60px;
+    background: fuchsia;
+    line-height: 60px;
+}
+.middle .middle-box .middle-contain .middle-note .note-tab ul li{
+    float: left;
+    padding: 0 20px;
+    height: 60px;
+}
+.middle .middle-box .middle-contain .middle-note .note-tab ul li.active{
+    border-bottom: 5px solid red;
+    box-sizing: border-box;
+}
+.middle .middle-box .middle-contain .middle-note .note{
+    width: 800px;
+    /*height: 800px;*/
+    background: slateblue;
+}

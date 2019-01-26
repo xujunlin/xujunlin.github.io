@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 60px;
+    width: 100%;
+    background: black;
+    top: 0px;
+    position: relative;
+}
+.middle{
+    height: 600px;
+    width: 100%;
+    background: antiquewhite;
+    position: relative;
+}
+.bottom1{
+    height: 120px;
+    width: 100%;
+    background: cadetblue;
+    position: relative;
+}
+.bottom2{
+    height: 60px;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+.middle .back-pic{
+    height: 250px;
+    width: 500px;
+    background: skyblue;
+    position: relative;
+    top: 10px;
+    left: 50% ;
+    margin-left: -250px;
+}
+li{
+    list-style: none;
+}
+.middle .back-pic .pic img{
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    display: none;
+}
+.middle .back-pic .pic .show{
+    display: block;
+}
+.middle .back-pic .btn{
+    height: 250px;
+    line-height: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.middle .back-pic:hover .btn{
+    display: block;
+}
+.middle .back-pic .btn .left{
+    position: absolute;
+    left: 25px;
+}
+.middle .back-pic .btn .right{
+    position: absolute;
+    right: 25px;
+}
+.middle .back-pic .point{
+    height: 15px;
+    width: 110px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -55px;
+}
+.middle .back-pic .point li{
+    height: 13px;
+    width: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.middle .back-pic .point .active{
+    background: white;
+}
+.middle .back-pic .point li:hover{
+    background: white;
+}
